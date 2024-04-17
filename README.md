@@ -72,4 +72,4 @@ yarn preview
 bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+https://github.com/cusitosr88/nuxt3-quasar-example/blob/main/layouts/default.vue
