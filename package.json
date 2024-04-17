@@ -1,0 +1,37 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint --ext \".js,.ts,.vue\" --ignore-path .gitignore .",
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.16.11",
+    "nuxt": "^3.11.2",
+    "quasar": "^2.15.2",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.7.0",
+    "@nuxt/devtools": "^0.8.2",
+    "@nuxtjs/color-mode": "3.3.0",
+    "@nuxtjs/eslint-config-typescript": "^12.1.0",
+    "@nuxtjs/i18n": "8.0.0-rc.3",
+    "@pinia/nuxt": "0.4.11",
+    "@quasar/vite-plugin": "^1.6.0",
+    "@types/node": "^18.19.31",
+    "eslint": "^8.57.0",
+    "nuxt-quasar-ui": "^2.0.8",
+    "pinia": "2.1.6",
+    "sass": "^1.75.0",
+    "typescript": "^5.4.5",
+    "vue-tsc": "^2.0.13"
+  }
+}
