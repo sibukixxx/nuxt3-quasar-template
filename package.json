@@ -9,7 +9,10 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "lint": "eslint --ext \".js,.ts,.vue\" --ignore-path .gitignore .",
-    "lint:fix": "npm run lint -- --fix"
+    "lint:fix": "npm run lint -- --fix",
+    "story:dev": "histoire dev",
+    "story:build": "histoire build",
+    "story:preview": "histoire preview"
   },
   "dependencies": {
     "@quasar/extras": "^1.16.11",
@@ -21,14 +24,18 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^1.7.0",
+    "@histoire/plugin-nuxt": "^0.17.17",
+    "@histoire/plugin-vue": "^0.17.17",
     "@nuxt/devtools": "^0.8.2",
     "@nuxtjs/color-mode": "3.3.0",
     "@nuxtjs/eslint-config-typescript": "^12.1.0",
     "@nuxtjs/i18n": "8.0.0-rc.3",
     "@pinia/nuxt": "0.4.11",
     "@quasar/vite-plugin": "^1.6.0",
-    "@types/node": "^18.19.31",
+    "@types/node": "^20.12.12",
+    "@vue/runtime-core": "^3.4.27",
     "eslint": "^8.57.0",
+    "histoire": "^0.17.17",
     "nuxt-quasar-ui": "^2.0.8",
     "pinia": "2.1.6",
     "sass": "^1.75.0",
